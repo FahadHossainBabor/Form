@@ -1,28 +1,28 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: poppins;
 
 }
 
-section{
+section {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: url('/backgroundfinal.jpg') no-repeat;
+    background: url('./backgroundfinal.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 
 }
 
-.login-box{
+.login-box {
     position: relative;
     width: 400px;
     height: 450px;
     background-color: transparent;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -30,12 +30,13 @@ section{
     backdrop-filter: blur(15px);
 }
 
-h2{
+h2 {
     font-size: 2rem;
     color: #fff;
     text-align: center;
 }
-.input-box{
+
+.input-box {
 
     position: relative;
 
@@ -46,7 +47,7 @@ h2{
 
 }
 
-.input-box label{
+.input-box label {
 
     position: absolute;
     top: 50%;
@@ -58,12 +59,13 @@ h2{
     transition: 0.5s;
 
 }
+
 .input-box input:focus~label,
-.input-box input:valid~label{
+.input-box input:valid~label {
     top: -5px;
 }
 
-.input-box input{
+.input-box input {
     width: 100%;
     height: 50px;
     background: transparent;
@@ -78,16 +80,17 @@ h2{
 
 }
 
-.input-box .icon{
+.input-box .icon {
 
     position: absolute;
     right: 8px;
     color: #fff;
-    font-size:  1.2em;;
+    font-size: 1.2em;
+    ;
     line-height: 57px;
 }
 
-.remember-forgot{
+.remember-forgot {
 
     margin: -15px 0 15px;
     display: flex;
@@ -97,20 +100,20 @@ h2{
 
 }
 
-.remember-forgot label input{
+.remember-forgot label input {
     margin-right: 3px;
 }
 
-.remember-forgot a{
+.remember-forgot a {
     color: white;
     text-decoration: none;
 }
 
-.remember-forgot a:hover{
+.remember-forgot a:hover {
     text-decoration: underline;
 }
 
-button{
+button {
     width: 100%;
     background-color: white;
     height: 40px;
@@ -123,7 +126,7 @@ button{
     cursor: pointer;
 }
 
-.register-account{
+.register-account {
     font-size: .9em;
     text-align: center;
     margin: 25px 0 10px;
@@ -131,7 +134,7 @@ button{
 
 }
 
-.register-account a{
+.register-account a {
     text-decoration: none;
     color: white;
 
@@ -140,7 +143,7 @@ button{
 
 }
 
-.register-account a:hover{
+.register-account a:hover {
     text-decoration: underline;
-    
+
 }
